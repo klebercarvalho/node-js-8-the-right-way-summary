@@ -13,6 +13,8 @@
       [How to Node](http://howtonode.org/)
       
       As a Node developer, your job is to create the callback functions that get executed in response to events. Any number of callbacks can respond to any event, but only one callback function will ever be executing at any time.
+      
+      So it is with Node’s single-threaded event loop. From a multithreaded perspective, running just one piece of code at a time seems silly. But once you understand event-driven programming—with nonblocking APIs—it becomes clear.
   
   - Aspects of Node.js Development
 Installing Node.js

@@ -11,6 +11,8 @@
       [V8 javascript engine](https://v8.dev/)
       
       [How to Node](http://howtonode.org/)
+      
+      As a Node developer, your job is to create the callback functions that get executed in response to events. Any number of callbacks can respond to any event, but only one callback function will ever be executing at any time.
   
   - Aspects of Node.js Development
 Installing Node.js
